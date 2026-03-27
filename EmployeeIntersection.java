@@ -14,12 +14,15 @@ import java.util.*;
 public class EmployeeIntersection {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        // taking an input
+        int n = sc.nextInt();
+        // in these 2 lines we took n as an input 
 
 
         // Input first array
         int n1 = sc.nextInt();
         int[] arr1 = new int[n1];
+        // here we created an array of n1 size
 
         // Scanner sc = new Scanner(System.in);
         // int age = sc.nextInt();
