@@ -42,7 +42,7 @@ class basic{
 
         // Arrays
         // This is how we declare an array in java
-        int[] arr = new int[5];
+        int[] arr = new int[5]; 
         arr[0] = 1;
         arr[1] = 2;
         System.out.println(arr[0]);
@@ -54,7 +54,7 @@ class basic{
         // sort
         // all the elements in uppercase
         Arrays.sort(numbers);
-
+        
         // 2d array
         int[][] matrix = {
             {1, 2, 3},
@@ -65,3 +65,13 @@ class basic{
 
     }
 }
+
+/*
+import java.util.*;
+
+class Pratham{
+    public static void main(String[] args){
+        System.out.println("hi");    
+    }
+}
+*/
