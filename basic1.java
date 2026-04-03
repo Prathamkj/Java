@@ -17,8 +17,6 @@ public class basic1 {
 
         // Input in Java
         Scanner sc = new Scanner (System.in);
-        Scanner sc = new Scanner (System.in);
-        Scanner sc = new Scanner (System.in)
         System.out.println("Enter your name: ");
         int age = sc.nextInt();
         // for float -- sc.nextFloat();

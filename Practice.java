@@ -1,13 +1,11 @@
-// Now string array input here
-// first number likhenge then string ke words ek ek karke
 import java.util.*;
-class Pratham{
+class Krishna{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        char[] ch = new char[n];
+        int[] arry = new int[n];
         for(int i=0; i<n; i++){
-            ch[i] = sc.next().charAt(0);
+            arry[i] = sc.nextInt();
         }
     }
 }

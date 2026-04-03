@@ -4,13 +4,11 @@ class MyClass {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         // =====================================================
         // 🔹 1. Single Integer
         // INPUT:
         // 5
         int n1 = sc.nextInt();
-
 
         // =====================================================
         // 🔹 2. Two Integers
@@ -34,8 +32,9 @@ class MyClass {
         // 5
         // Hello World
         int num2 = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); // consume newline  -->  for new line
         String line = sc.nextLine();
+
 
 
         // =====================================================

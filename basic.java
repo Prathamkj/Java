@@ -30,7 +30,7 @@ class basic{
         // to find the character at a specific index
         System.out.println(name.charAt(0)); 
         // java is the 0th index based language
-        // so first character is at index 0
+        // so first character is at index 0 
 
         // replace 
         name.replace('a', 'o');
