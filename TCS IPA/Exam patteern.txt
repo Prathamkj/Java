@@ -1,0 +1,102 @@
+✅ TCS IPA Exam Pattern 2026 (Expected)
+🕒 Overall Structure
+Total Duration: ~120 minutes
+Total Marks: 100
+No Negative Marking
+📊 Section-wise Pattern
+🔹 1. MCQ Section (Theory + Concepts)
+Questions: ~50
+Time: ~50 minutes
+Marks: 50
+
+👉 Topics covered:
+
+Programming concepts (Java / Python basics)
+OOPS
+DBMS / SQL basics
+HTML, CSS (UI basics)
+Business Skills / Communication
+TCS company-related questions
+Aptitude + reasoning basics
+
+✔ This section tests your overall knowledge + Xplore course content
+
+🔹 2. Coding Section (Most Important 🚨)
+Questions: 2 coding problems
+Time: ~70 minutes
+Marks: 50
+
+👉 Pattern inside coding:
+
+1 Easy Question → ~15 marks
+1 Medium Question → ~35 marks
+
+👉 Language choice:
+
+Java OR Python
+
+👉 Topics asked:
+
+Arrays, Strings
+Basic Maths logic
+Sorting / Searching
+HashMap / Collections
+Simple problem solving
+
+
+
+//
+
+📊 MCQ Topic-wise Distribution (Expected)
+🔹 1. Programming (Java / Python Basics)
+Questions: 12–15
+🔥 MOST IMPORTANT
+
+👉 Covers:
+
+OOPS (class, object, inheritance, polymorphism)
+Strings, arrays
+Output-based questions
+Loops, conditions
+🔹 2. Database / SQL
+Questions: 6–8
+
+👉 Covers:
+
+SELECT queries
+JOIN (basic)
+GROUP BY
+Simple output questions
+🔹 3. Web Technologies (HTML, CSS, JS basics)
+Questions: 4–6
+
+👉 Covers:
+
+HTML tags
+CSS properties
+Basic JS concepts
+🔹 4. Business Skills / Communication
+Questions: 8–10
+✅ EASY SCORING
+
+👉 Covers:
+
+Email writing
+Grammar
+Workplace scenarios
+🔹 5. Aptitude / Logical Reasoning
+Questions: 5–7
+
+👉 Covers:
+
+Percentages
+Time & Work
+Basic reasoning
+🔹 6. TCS / General IT Knowledge
+Questions: 3–5
+
+👉 Covers:
+
+TCS values
+IT basics
+Company-related info
