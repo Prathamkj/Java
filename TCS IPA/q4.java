@@ -15,11 +15,13 @@ public class Main {
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-
+            // Accessing each characters
             if (ch != ' ') {
-                word = word + ch;   // build word
+                // build word
+                word = word + ch;   
             } else {
-                // word completed → check digit
+                // word completed 
+                // check digit
                 if (!word.matches(".*\\d.*")) {
                     ans = ans + word.charAt(word.length() - 1);
                 }
