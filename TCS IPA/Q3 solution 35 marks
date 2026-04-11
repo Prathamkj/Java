@@ -1,0 +1,115 @@
+import java.util.*;
+import java.util.Collections;
+
+class Hotel {
+    private int hotelId;
+    private String hotelName;
+    private String dateOfBooking;
+    private int noOfRoomsBooked;
+    private String wifiFacility;
+    private double totalBill;
+
+    // constructor
+    Hotel(int hotelId, String hotelName, String dateOfBooking, int noOfRoomsBooked, String wifiFacility, double totalBill) {
+        this.hotelId = hotelId;
+        this.hotelName = hotelName;
+        this.dateOfBooking = dateOfBooking;
+        this.noOfRoomsBooked = noOfRoomsBooked;
+        this.wifiFacility = wifiFacility;
+        this.totalBill = totalBill;
+    }
+
+    // getters
+    public int gethotelId() { return hotelId; }
+    public String gethotelName() { return hotelName; }
+    public String getBooking() { return dateOfBooking; }
+    public int getRoomsBooked() { return noOfRoomsBooked; }
+    public String getwifiFacility() { return wifiFacility; }
+    public double getTotalBill() { return totalBill; }
+}
+
+// Main Class
+class MyClass {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        Hotel[] arr = new Hotel[4];
+
+        // input 4 hotels
+        for (int i = 0; i < 4; i++) {
+
+            int id = sc.nextInt();
+            sc.nextLine();
+
+            String hotelName = sc.nextLine();
+            String bookingdate = sc.nextLine();
+
+            int roomsbooked = sc.nextInt();
+            sc.nextLine();
+
+            String wifi = sc.nextLine();
+
+            double totalBill = sc.nextDouble();
+            sc.nextLine();
+
+            arr[i] = new Hotel(id, hotelName, bookingdate, roomsbooked, wifi, totalBill);
+        }
+
+        // extra inputs
+        String month = sc.nextLine();
+        String wifi = sc.nextLine();
+
+        // Method 1
+        int result1 = noOfRoomsBookedInGivenMonth(arr, month);
+        if (result1 > 0) {
+            System.out.println(result1);
+        } else {
+            System.out.println("No rooms booked in the given month");
+        }
+
+        // Method 2
+        Hotel result2 = searchHotelByWifiOption(arr, wifi);
+        if (result2 != null) {
+            System.out.println(result2.gethotelId());
+        } else {
+            System.out.println("No such option available");
+        }
+
+        sc.close();
+    }
+
+    // Method 1
+    public static int noOfRoomsBookedInGivenMonth(Hotel[] arr, String month) {
+
+        int rooms = 0;
+
+        for (Hotel h : arr) {
+            if (h.getBooking().toLowerCase().contains(month.toLowerCase())) {
+                rooms += h.getRoomsBooked();
+            }
+        }
+
+        return rooms;
+    }
+
+    // Method 2
+    public static Hotel searchHotelByWifiOption(Hotel[] arr, String wifi) {
+
+        ArrayList<Hotel> list = new ArrayList<>();
+
+        for (Hotel h : arr) {
+            if (h.getwifiFacility().equalsIgnoreCase(wifi)) {
+                list.add(h);
+            }
+        }
+
+        if (list.size() < 2) {
+            return null;
+        }
+
+        Collections.sort(list,
+                (a, b) -> Double.compare(a.getTotalBill(), b.getTotalBill()));
+
+        return list.get(list.size() - 2);
+    }
+}

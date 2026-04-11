@@ -63,7 +63,7 @@ public class Main {
                     // then check the digit = true
                     break;
                 }
-            }   
+            }       
 
             if (hasDigit) {
                 continue;

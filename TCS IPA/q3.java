@@ -6,10 +6,9 @@ public class Main{
         // countingg the spaces and the characters
         String str = sc.nextLine();
         int ctr = 0;
-        int spc = 0;
+        int spc = 0; 
         for(int i=0; i<str.length(); i++){
-        for(int i=0; i<str.length(); i++){
-        char ch = str.charAt(i);
+            char ch = str.charAt(i);
             // taking out the character
             if(ch != ' '){
                 ctr++;
